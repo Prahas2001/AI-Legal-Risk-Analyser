@@ -3,7 +3,7 @@
 A **secure, serverless, cloud-native solution** designed for **automated legal and clinical document risk assessment**. The platform leverages modern AI capabilities and scalable cloud infrastructure to analyze documents, identify potential risks, and deliver structured insights across multiple platforms.
 
 
-
+---
 ## Project Overview
 
 The **AI Legal Risk Analyzer** addresses the high cognitive load involved in reviewing dense legal contracts and clinical reports. It provides a **unified ecosystem**—comprising a **responsive web dashboard** and a **cross-platform mobile application**—that enables users to upload documents and receive a **structured, AI-generated risk profile**.
@@ -11,7 +11,7 @@ The **AI Legal Risk Analyzer** addresses the high cognitive load involved in rev
 The system automates document analysis, helping users quickly identify potential risks, critical clauses, and key insights that would otherwise require extensive manual review.
 
 
-
+---
 ## Features
 
 ### AI-Powered Document Analysis
@@ -50,7 +50,7 @@ Serverless compute layer responsible for document processing, orchestration, and
 Performs document analysis and generates structured outputs used for legal and clinical risk assessment.
 
 
-
+---
 ## Tech Stack
 
 | Tier | Technology |
@@ -62,7 +62,7 @@ Performs document analysis and generates structured outputs used for legal and c
 | **Data Validation** | Pydantic (Data Schemas) |
 
 
-
+---
 ## Project Structure
 ```
 /ai-risk-analyzer
@@ -122,7 +122,7 @@ Performs document analysis and generates structured outputs used for legal and c
    Open `dashboard.html` in **any modern web browser** to launch the dashboard.
 
 
-
+---
 ## Deployment Guide (AWS & AI Setup)
 
 ### Step 1: IAM Role Configuration
@@ -156,7 +156,7 @@ GEMINI_API_KEY=your_google_ai_studio_api_key
 The API key should be obtained from Google AI Studio and is used to enable AI-powered legal document analysis.
 
 
-
+---
 ## Usage
 
 1. **Authentication**
@@ -191,7 +191,7 @@ The API key should be obtained from Google AI Studio and is used to enable AI-po
    Examine the **color-coded severity cards** on the dashboard to identify potential risks and important clauses detected in the document.
 
 
-
+---
 ## AI Analysis Output Schema
 
 The AI analysis returns results in the following **JSON structure**:
@@ -210,7 +210,7 @@ The AI analysis returns results in the following **JSON structure**:
 ```
 
 
-
+---
 ## Troubleshooting
 
 ### 403 Access Denied
@@ -234,7 +234,7 @@ Common cause:
 - **Python indentation errors** or runtime exceptions in the **Lambda function**.
 
 
-
+---
 ## License
 
 Copyright © 2026 Ram Prahasith Sharma.
@@ -242,10 +242,11 @@ Copyright © 2026 Ram Prahasith Sharma.
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software for academic or personal purposes, provided that appropriate credit is given to the original author.
 
 
-
+---
 ## Author
 
 **Ram Prahasith Sharma**  
 MSc Data Science, DAU.
+
 
 
