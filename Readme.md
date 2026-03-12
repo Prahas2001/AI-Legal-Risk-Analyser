@@ -29,6 +29,8 @@ Implements **fine-grained Amazon S3 pathing**, ensuring each user’s data is is
 ### Multimodal Support
 Supports analysis of **high-resolution document images (JPG/PNG)** as well as **multi-page PDF files**.
 
+
+---
 ## System Architecture
 
 The system follows a **modern cloud-native architecture**, where the **frontend manages user interaction and state**, while the **backend handles processing, storage, and AI-driven analysis**.
@@ -247,6 +249,7 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 
 **Ram Prahasith Sharma**  
 MSc Data Science, DAU.
+
 
 
 
