@@ -115,5 +115,5 @@ aws s3 sync . s3://your-bucket-name --exclude ".git/*" --exclude "*.md"
 
 ---
 
-**Live Demo**: [Your deployed URL here]  
+**Live Demo**: [https://dk82q7zdk415z.cloudfront.net/index.html]  
 **Issues?** [Open an issue](../../issues) or check the main [project README](../../README.md)
